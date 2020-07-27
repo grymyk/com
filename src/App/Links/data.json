@@ -1,0 +1,78 @@
+{
+      "humanity": {
+          "scandtree": {
+              "href": "/melet.html",
+              "text": "Мелетинский",
+              "id": 1
+          },
+              "ricoeur": {
+              "href": "/paul-ricoeur.html",
+              "text": "польрикер",
+              "id": 2
+          }
+      },
+
+      "architecture": {
+          "scandtree": {
+              "href": "http://scandinaviantree.com",
+              "text": "scandinaviantree.com",
+              "id": 3
+          },
+
+          "ovlay": {
+              "href": "https://ovlay.herokuapp.com/",
+              "text": "ovlay",
+              "id": 4
+          },
+
+          "reformer": {
+              "href": "/reformer.html",
+              "text": "reformer",
+              "id": 5
+          },
+
+          "tree": {
+              "href": "/tree.pdf",
+              "text": "tree",
+              "id": 6
+          },
+
+          "user": {
+              "href": "/user.html",
+              "text": "user",
+              "id": 7
+          }
+      },
+
+      "it": {
+          "game": {
+            "href": "/game.html",
+            "text": "game",
+            "id": 8
+          },
+
+          "geo": {
+              "href": "/geo.html",
+              "text": "geo",
+              "id": 9
+          },
+
+          "rwd": {
+              "href": "/rwd.html",
+              "text": "rwd",
+              "id": 10
+          },
+
+          "slot": {
+              "href": "/slot.html",
+              "text": "slot",
+              "id": 11
+          },
+
+          "wsg": {
+              "href": "/wsg.html",
+              "text": "wsg",
+              "id": 12
+          }
+      }
+  }
