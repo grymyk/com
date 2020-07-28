@@ -4,6 +4,11 @@ h1 {
   text-align: center;
 }
 
+.holder {
+  margin: 0 auto;
+  width: 80%;
+}
+
 .email {
   margin: 100px 50px 0 0;
   text-align: right;

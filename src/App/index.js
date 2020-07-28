@@ -5,7 +5,7 @@ import Links from './Links';
 
 function App() {
   return (
-      <div>
+      <div className="holder">
           <h1>Mykola Grytsai</h1>
           <Links />
           <div className="email">

@@ -1,25 +1,56 @@
 import React from 'react'
 
+import './links.scss'
+
 function Item(props) {
+    let data = props.link;
+
     return <li>
-        <a href={props.href}>{props.text}</a>
-    </li>
+            <a href={data.href}>{data.text}</a>
+        </li>
+}
+
+function Heading(props) {
+    return <h2 key={props.title}>{props.title}</h2>
+}
+
+let getLinks = (data) => {
+    let links = [];
+
+    for (const name in data) {
+        links.push(data[name])
+    }
+
+    return links;
+}
+
+function Sphere(props) {
+    let links = getLinks(props.works)
+
+    const listItem = links.map( (link) => {
+        return <Item key= {link.id} link = {link} />
+    })
+
+    return (
+        <div className = "sphere">
+            <Heading key = {props.head} title = {props.head} />
+            <ul>{listItem}</ul>
+        </div>
+    )
 }
 
 
 function List(props) {
-    // const numberToItem = (number, index) => <li key={index}>{number}</li>;
-    const numberToItem = (number, index) => {
-        return <Item key={number.id} value={number} />;
-    };
+    let headers = Object.getOwnPropertyNames(props.data);
 
-    const listItem = props.data.map(numberToItem);
+    let links = headers.map( (head) => {
+        return <Sphere key={head} head={head} works={props.data[head]} />
+    });
 
     return (
-        <>
-            <h2>{props.title}</h2>
-            <ul>{listItem}</ul>
-        </>
+        <div className="links_holder">
+            {links}
+        </div>
     );
 }
 
