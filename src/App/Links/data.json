@@ -2,45 +2,66 @@
       "humanity": {
           "scandtree": {
               "href": "/melet.html",
-              "text": "Мелетинский",
-              "id": "1"
+              "text": "мелетинский",
+              "id": "h1"
           },
           "ricoeur": {
               "href": "/paul-ricoeur.html",
-              "text": "польрикер",
-              "id": "2"
+              "text": "рикер",
+              "id": "h2"
           }
       },
 
       "architecture": {
+          "arch_portfolio": {
+              "href": "/arch-portfolio.pdf",
+              "text": "arch portfolio",
+              "id": "a1"
+          },
+
+          "poster": {
+              "href": "/poster.pdf",
+              "text": "poster",
+              "id": "a2"
+          },
+
           "scandtree": {
               "href": "http://scandinaviantree.com",
-              "text": "scandinaviantree.com",
-              "id": "3"
+              "text": "scandinaviantree",
+              "id": "a3"
           },
 
           "ovlay": {
               "href": "https://ovlay.herokuapp.com/",
               "text": "ovlay",
-              "id": "4"
+              "id": "a4"
           },
 
           "reformer": {
-              "href": "/reformer.html",
+              "href": "/st.html",
               "text": "reformer",
-              "id": "5"
+              "id": "a5"
           },
 
           "tree": {
               "href": "/tree.pdf",
-              "text": "tree",
-              "id": "6"
+              "text": "tree_concept",
+              "id": "a6"
           },
-
           "user": {
               "href": "/user.html",
-              "text": "user",
-              "id": "7"
+              "text": "user_iu",
+              "id": "a7"
+          },
+          "zine": {
+              "href": "/zine.pdf",
+              "text": "zine",
+              "id": "a8"
+          },
+          "passport": {
+              "href": "/passport.pdf",
+              "text": "passport",
+              "id": "a9"
           }
       },
 
@@ -48,31 +69,31 @@
           "game": {
             "href": "/game.html",
             "text": "game",
-            "id": "8"
+            "id": "i1"
           },
 
           "geo": {
               "href": "/geo.html",
-              "text": "geo",
-              "id": "9"
+              "text": "geolocation",
+              "id": "i2"
           },
 
           "rwd": {
               "href": "/rwd.html",
               "text": "rwd",
-              "id": "10"
+              "id": "i3"
           },
 
           "slot": {
               "href": "/slot.html",
-              "text": "slot",
-              "id": "11"
+              "text": "slot machine",
+              "id": "i4"
           },
 
           "wsg": {
               "href": "/wsg.html",
               "text": "wsg",
-              "id": "12"
+              "id": "i5"
           }
       }
   }

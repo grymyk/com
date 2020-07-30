@@ -39,7 +39,6 @@ function Sphere(props) {
     )
 }
 
-
 function List(props) {
     let headers = Object.getOwnPropertyNames(props.data);
 
