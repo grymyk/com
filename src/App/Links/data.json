@@ -1,99 +1,100 @@
 {
-      "humanity": {
-          "scandtree": {
-              "href": "/melet.html",
-              "text": "мелетинский",
-              "id": "h1"
-          },
-          "ricoeur": {
-              "href": "/paul-ricoeur.html",
-              "text": "рикер",
-              "id": "h2"
-          }
-      },
-
-      "architecture": {
-          "arch_portfolio": {
-              "href": "/arch-portfolio.pdf",
-              "text": "arch portfolio",
-              "id": "a1"
-          },
-
-          "poster": {
-              "href": "/poster.pdf",
-              "text": "poster",
-              "id": "a2"
-          },
-
-          "scandtree": {
-              "href": "http://scandinaviantree.com",
-              "text": "scandinaviantree",
-              "id": "a3"
-          },
-
-          "ovlay": {
-              "href": "https://ovlay.herokuapp.com/",
-              "text": "ovlay",
-              "id": "a4"
-          },
-
-          "reformer": {
-              "href": "/st.html",
-              "text": "reformer",
-              "id": "a5"
-          },
-
-          "tree": {
-              "href": "/tree.pdf",
-              "text": "tree_concept",
-              "id": "a6"
-          },
-          "user": {
-              "href": "/user.html",
-              "text": "user_iu",
-              "id": "a7"
-          },
-          "zine": {
-              "href": "/zine.pdf",
-              "text": "zine",
-              "id": "a8"
-          },
-          "passport": {
-              "href": "/passport.pdf",
-              "text": "passport",
-              "id": "a9"
-          }
-      },
-
-      "it": {
-          "game": {
+    "it": {
+        "scandtree": {
+            "href": "http://scandinaviantree.com",
+            "text": "scandinaviantree",
+            "id": "i11"
+        },
+        "statgraph": {
+            "href": "http://statgraph.grymyk.com/",
+            "text": "statsgraph",
+            "id": "a10"
+        },
+        "figure": {
+            "href": "http://figure.grymyk.com/",
+            "text": "figure",
+            "id": "a9"
+        },
+        "reform": {
+            "href": "http://stform.co.ua/",
+            "text": "reform",
+            "id": "i8"
+        },
+        "game": {
             "href": "/game.html",
             "text": "game",
+            "id": "i7"
+        },
+        "geo": {
+            "href": "/geo.html",
+            "text": "geolocation",
+            "id": "i6"
+        },
+        "rwd": {
+            "href": "/rwd.html",
+            "text": "rwd",
+            "id": "i5"
+        },
+        "slot": {
+            "href": "/slot.html",
+            "text": "slot machine",
+            "id": "i4"
+        },
+        "ovlay": {
+            "href": "https://ovlay.herokuapp.com/",
+            "text": "ovlay",
+            "id": "i3"
+        },
+        "wsg": {
+            "href": "/wsg.html",
+            "text": "wsg",
+            "id": "i2"
+        },
+        "user": {
+            "href": "/user.html",
+            "text": "user_iu",
             "id": "i1"
-          },
+        }
+    },
 
-          "geo": {
-              "href": "/geo.html",
-              "text": "geolocation",
-              "id": "i2"
-          },
+    "architecture": {
+        "arch_portfolio": {
+            "href": "/arch-portfolio.pdf",
+            "text": "arch portfolio",
+            "id": "a5"
+        },
+        "poster": {
+            "href": "/poster.pdf",
+            "text": "poster",
+            "id": "a4"
+        },
+        "tree": {
+            "href": "/tree.pdf",
+            "text": "tree_concept",
+            "id": "a3"
+        },
+        "zine": {
+            "href": "/zine.pdf",
+            "text": "zine",
+            "id": "a2"
+        },
+        "passport": {
+            "href": "/passport.pdf",
+            "text": "passport",
+            "id": "a1"
+        }
+    },
 
-          "rwd": {
-              "href": "/rwd.html",
-              "text": "rwd",
-              "id": "i3"
-          },
-
-          "slot": {
-              "href": "/slot.html",
-              "text": "slot machine",
-              "id": "i4"
-          },
-
-          "wsg": {
-              "href": "/wsg.html",
-              "text": "wsg",
-              "id": "i5"
-          }
-      }
-  }
+    "humanity": {
+        "scandtree": {
+            "href": "/melet.html",
+            "text": "мелетинский",
+            "id": "h2"
+        },
+        "ricoeur": {
+            "href": "/paul-ricoeur.html",
+            "text": "рикер",
+            "id": "h1"
+        }
+    }
+}

@@ -1,6 +1,6 @@
 h2 {
-  margin: 0;
-  text-align: center;
+    margin: 0;
+    text-transform: uppercase;
 }
 
 ul {
@@ -11,17 +11,39 @@ ul {
 
 li {
     line-height: 28px;
+
+    a {
+        font-size: 18px;
+    }
 }
 
 .links_holder {
-  margin: 50px 0 0;
-  overflow: hidden;
+    margin: 0 auto;
+    width: 178px;
 }
+
 .sphere {
-  float: left;
-  width: 33.33%;
+  margin: 40px 0 0;
 
   ul {
     margin: 20px 0 0;
   }
+}
+
+@media (min-width: 768px) {
+    .links_holder {
+        width: 440px;
+        overflow: hidden;
+    }
+
+    .sphere {
+        width: 220px;
+        float: left;
+    }
+}
+
+@media (min-width: 1025px) {
+    .links_holder {
+        width: 660px;
+    }
 }
