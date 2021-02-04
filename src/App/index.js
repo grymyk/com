@@ -2,17 +2,18 @@ import React from 'react';
 import './App.css';
 
 import Links from './Links';
+import Footer from './Footer';
 
 function App() {
-  return (
-      <div className="holder">
-          <h1>Mykola Grytsai</h1>
-          <Links />
-          <div className="email">
-              <a href="mailto:hello@grymyk.com">hello@grymyk.com</a>
-          </div>
-      </div>
-  )
+    const name = 'Mykola Grytsai';
+
+    return (
+        <div className="holder">
+            <h1>{name}</h1>
+            <Links />
+            <Footer />
+        </div>
+    )
 }
 
 export default App;
