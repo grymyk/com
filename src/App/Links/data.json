@@ -1,64 +1,44 @@
 {
     "it": {
-        "scandtree": {
-            "href": "http://scandinaviantree.com",
-            "text": "scandinaviantree",
-            "id": "i12"
-        },
-        "statgraph": {
-            "href": "http://statgraph.grymyk.com/",
-            "text": "statsgraph",
-            "id": "a11"
-        },
         "figure": {
             "href": "http://figure.grymyk.com/",
             "text": "figure",
-            "id": "a10"
-        },
-        "reform": {
-            "href": "http://stform.grymyk.com/",
-            "text": "reform",
-            "id": "i9"
-        },
-        "ovlay": {
-            "href": "https://ovlay.herokuapp.com/",
-            "text": "ovlay",
-            "id": "i8"
+            "id": "i0"
         },
         "itten": {
             "href": "http://itten.grymyk.com/",
             "text": "itten",
-            "id": "i7"
+            "id": "i1"
         },
-        "game": {
-            "href": "/game.html",
-            "text": "game",
-            "id": "i6"
-        },
-        "geo": {
-            "href": "/geo.html",
-            "text": "geolocation",
-            "id": "i5"
-        },
-        "rwd": {
-            "href": "/rwd.html",
-            "text": "rwd",
-            "id": "i4"
+        "scandtree": {
+            "href": "http://scandinaviantree.com",
+            "text": "scandinaviantree",
+            "id": "i2"
         },
         "slot": {
             "href": "/slot.html",
             "text": "slot machine",
             "id": "i3"
         },
+        "statgraph": {
+            "href": "http://statgraph.grymyk.com/",
+            "text": "statsgraph",
+            "id": "a4"
+        },
+        "ovlay": {
+            "href": "https://ovlay.herokuapp.com/",
+            "text": "ovlay",
+            "id": "i5"
+        },
+        "reform": {
+            "href": "http://stform.grymyk.com/",
+            "text": "reform",
+            "id": "i6"
+        },
         "wsg": {
             "href": "/wsg.html",
             "text": "wsg",
-            "id": "i2"
-        },
-        "user": {
-            "href": "/user.html",
-            "text": "user_iu",
-            "id": "i1"
+            "id": "i7"
         }
     },
 
@@ -66,40 +46,22 @@
         "arch_portfolio": {
             "href": "/arch-portfolio.pdf",
             "text": "arch portfolio",
-            "id": "a5"
+            "id": "a0"
+        },
+        "passport": {
+            "href": "/passport.pdf",
+            "text": "passport of SAF",
+            "id": "a1"
         },
         "poster": {
             "href": "/poster.pdf",
             "text": "poster",
-            "id": "a4"
-        },
-        "tree": {
-            "href": "/tree.pdf",
-            "text": "tree_concept",
-            "id": "a3"
+            "id": "a2"
         },
         "zine": {
             "href": "/zine.pdf",
             "text": "zine",
-            "id": "a2"
-        },
-        "passport": {
-            "href": "/passport.pdf",
-            "text": "passport",
-            "id": "a1"
-        }
-    },
-
-    "humanity": {
-        "scandtree": {
-            "href": "/melet.html",
-            "text": "мелетинский",
-            "id": "h2"
-        },
-        "ricoeur": {
-            "href": "/paul-ricoeur.html",
-            "text": "рикер",
-            "id": "h1"
+            "id": "a3"
         }
     }
 }
